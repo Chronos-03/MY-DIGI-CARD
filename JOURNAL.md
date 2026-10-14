@@ -1,9 +1,9 @@
 ---
 title: "DIGITAL ID CARD"
-github: ""
+github: "https://github.com/Chronos-03/MY-DIGI-CARD"
 description: "its basically a carbiner based keychain or it can also said as digital id card which can also display animation and text as well , it have 2 inch lcd display , with two brightness control button and one slide switch for the on off it is rechargeable id card with 3d case we will ESP32 super mini as controller and TP4056 as charging module it doesnt have complex connection so we will use the perf board for all the connection."
 created_at: "2026-10-13"
-total_time: "2h 48m"
+total_time: "3h 6m"
 ---
 
 # October 13, 2026: Adding symbols and mark some label 
@@ -92,3 +92,22 @@ As Im not good with the code and also i dont have toe device in my hand or in re
 Timelapse: https://lapse.hackclub.com/timelapse/Fwt6Ch5Rno-O
 
 **Total time spent: 12m**
+
+# October 15, 2026: Changes done According to the reviewer
+
+Reviewer ask me to make some changes into the BOM which i have done and also i forget to share my entire and the whole time my fusion link was shared when i get to know i change to entire screen , things apart i make the some changes 
+1- I change ESP32-S3 to ESP32-C3.
+2- change 10000 MAh battery to 1000 MAh.
+3- Updated Carabiner link 
+4- Export Stl files for the final as well top and bottom case
+
+NOTE- There is a battery inside the CAD model i will share the demo link below so u can check it out its quite big the one i choose.
+
+https://a360.co/4s29vQI
+
+![](https://fabricate.hackclub-assets.com/c998991dad077addb879e86c942cc1393951b4f217f53aa60e039f44c98a22b8/image-png/Screenshot%202026-10-15%20at%201.31.46%E2%80%AFAM.png)
+![](https://fabricate.hackclub-assets.com/a9b64fde35963df77e0ede7ecf2fdd04685606f20b457abe313a747fecff1b39/image-png/Screenshot%202026-10-15%20at%201.54.27%E2%80%AFAM.png)
+
+Timelapse: https://lapse.hackclub.com/timelapse/Hk0OX3nj0KeC
+
+**Total time spent: 18m**

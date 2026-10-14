@@ -27,20 +27,21 @@ To maximize cost-effectivenes and accessibility, the entire physical circuit is 
 ![Circuit Schematic](IMAGES/SCHEMATICS.png)
 
 ## Bill of Materials (BOM)
-The hardware for this project is specifically sourced to keep the total build cost highly affordable, coming in comfortably under the $25 USD budget constraint. 
 
 | Component | Quantity | Estimated Price (USD) | Source Link |
-| :--- | :---: | :--- | :--- |
-| **ESP32-C3 SuperMini** | 1 | ~$3.50 | [View on Robu.in](https://robu.in/product/esp32-c3-development-board-esp32-supermini/) |
-| **2.0" SPI TFT LCD Color Screen ILI9225** | 1 | ~$7.13 | [View on Robu.in](https://robu.in/product/2-0-inch-spi-tft-lcd-color-screen-module-ili9225-serial-interface-176-x-220/) |
-| **TP4056 Charging Module (Type-C)**| 1 | ~$0.50 | [View on Robu.in](https://robu.in/product/tp4056-1a-li-ion-lithium-battery-charging-module-with-current-protection-type-c/) |
-| **3.7V LiPo Battery (e.g., 500mAh)** | 1 | ~$4.50 | [View on Robu.in](https://robu.in/product-category/1-cell-lipo-3-7v-4-2v/) |
-| **SPDT Slide Switch** | 1 | ~$0.50 | [View on Robu.in](https://robu.in/product-category/slide-switches/) |
-| **6x6x5 Tactile Push Buttons** | 2 | ~$0.50 | [View on Robu.in](https://robu.in/product/6x6x5-tactile-push-button-switch/) |
-| **3x7 cm Universal PCB Prototype Board (Double-Sided)** | 1 | ~$1.00 | [View on Robu.in](https://robu.in/product/37-cm-universal-pcb-prototype-board-double-sided/) |
-| **Misc (Wires, Solder, Header Pins)** | 1 | ~$1.50 | N/A |
-| **Carabiner** | 1 | ~$4.71 | [View on Amazon](https://amzn.in/d/09jRIfkX) |
-| **Total Estimated Cost:** | | **~$23.84** | |
+| :--- | :--- | :--- | :--- |
+| ESP32-C3 SuperMini | 1 | ~$2.72 | [Link](https://makerbazar.in/products/esp32-c3-supermini-iot-development-board) |
+| 2.0" SPI TFT LCD Color Screen ILI9225 | 1 | ~$7.13 | [Link](https://robu.in/product/2-0-inch-spi-tft-lcd-color-screen-module-ili9225-serial-interface-176-x-220/) |
+| TP4056 Charging Module (Type-C) | 1 | ~$0.50 | [Link](https://robu.in/product/tp4056-1a-li-ion-lithium-battery-charging-module-with-current-protection-type-c/) |
+| 3.7V LiPo Battery (e.g., 1000mAh) | 1 | ~$1.57 | [Link](https://makerbazar.in/products/generic-3-7v-1000mah-lithium-polymer-battery-single-cell) |
+| SPDT Slide Switch | 1 | ~$0.50 | [Link](https://robu.in/product/4mm-spdt-1p2t-slide-switch-pack-of-10/) |
+| 6x6x5 Tactile Push Buttons | 2 | ~$0.50 | [Link](https://robu.in/product/6x6x5-tactile-push-button-switch/) |
+| Perfboard / Zero PCB | 1 | ~$1.00 | [Link](https://robu.in/product/37-cm-universal-pcb-prototype-board-double-sided/) |
+| Misc (Wires, Solder, Header Pins) | 1 | ~$1.50 | N/A |
+| Carbenier | 1 | ~$2.26 | [Link](https://amzn.in/d/02iAT0KE) |
+| Case | 1 | ~$7.00 | [Link](https://printlegion.hackclub.com/) |
+| **Total Estimated Cost** | | **~$24.68** | |
+
 
 ## Firmware Development and Testing Disclaimer
 The software architecture driving this digital keychain is written in C++ utilizing the PlatformIO development environment within Visual Studio Code. The codebase relies heavily on the TFT_eSPI library for optimized hardware-level display driving, the AnimatedGIF library for efficient on-the-fly image decoding, and the ESPAsyncWebServer library to host the reliable local captive portal. It is important to note that the initial firmware architecture and project structure were developed with the assistance of artificial intelligence to establish a robust foundation. Because the codebase currently relies on theoretical pinouts and assumed library behaviors, the firmware will require active physical testing once the perfboard hardware is completely soldered and assembled. Moving forward, all subsequent bug fixes, memory optimizations, and display performance improvements will be directly committed to this repository as the physical prototype is tested and refined.I promise that when the hardware work complete in real life i will make the best firmware and optimised it as much as i can 

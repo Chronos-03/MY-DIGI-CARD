@@ -1,9 +1,9 @@
 # MY-DIGI-CARD
 
-![Final Product Render 1](Images/FINAL1.png)
-![Final Product Render 2](Images/FINAL2.png)
-![Final Product Render 3](Images/FINAL3.png)
-![Final Product Render 4](Images/FINAL4.png)
+![Final Product Render 1](IMAGES/FINAL1.png)
+![Final Product Render 2](IMAGES/FINAL2.png)
+![Final Product Render 3](IMAGES/FINAL3.png)
+![Final Product Render 4](IMAGES/FINAL4.png)
 
 ## Project Overview
 MY-DIGI-CARD is fully custom Keycain type device which can dipaly any kind of text and animation the keychain is paired with the carbiner for th sturdy look and strong hook . The main objective to build this keychain is to igve a cool keychain which can display any animation isntead of the static images that why i use ESP32 super mini to handle this . Instead of requiring a wired computer connection to update the visuals, the onboard C++ firmware generates a dedicated Wi-Fi Captive Portal. This allows users to connect to the keychain’s local network from any standard smartphone, automatically open a web-based upload interface, and seamlessly transfer new animated GIFs directly into the ESP32’s internal LittleFS flash memory partition

@@ -26,8 +26,6 @@ To maximize cost-effectivenes and accessibility, the entire physical circuit is 
 
 ![Circuit Schematic](Images/SCHEMATICS.png)
 
-
-
 ## Bill of Materials (BOM)
 | Component | Quantity | Estimated Price (USD) | Source Link |
 | :--- | :---: | :--- | :--- |

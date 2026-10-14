@@ -11,20 +11,20 @@ MY-DIGI-CARD is fully custom Keycain type device which can dipaly any kind of te
 
 ## 3D Enclosure and CAD Design
 The physical enclosure for this digital keychain requires a custom-designed, 3D-printable case designed in Fusion  360 to ensure all internal hardware is tightly secured without compressing the delicate wiring. The front or the top panel is made with the precision and also  have grooves for thw 2 tactile switches which control brightness and also with the slide switch to power it on or off the main objective to add brightness control is for the battery backup. The top case also have holes for the M@ scre heatset which help to tighly gold the bottom case with the top case the top case hold every electronics which are The display , ESP32 Super Mini , TP4056 and the battery along with the perf baord to secure all the connection and we avoid pcb to Minimize the cost as much as I can do.
-![Top Case 1](Images/TOP1.png)
-![Top Case 2](Images/TOP2.png)
-![Top Case 3](Images/TOP3.png)
+![Top Case 1](IMAGES/TOP1.png)
+![Top Case 2](IMAGES/TOP2.png)
+![Top Case 3](IMAGES/TOP3.png)
 
 The back case also have the screw holes to tight them to the top case also the a circular ring attached to the back case for the carbiner the thicknes is about 3mm not so bulky yet enough sturdy to hold the keychain and absorb some shock as well.
 
-![Bottom Case 1](Images/BOTTOM1.png)
-![Bottom Case 2](Images/BOTTOM2.png)
-![Bottom Case 3](Images/BOTTOM3.png)
+![Bottom Case 1](IMAGES/BOTTOM1.png)
+![Bottom Case 2](IMAGES/BOTTOM2.png)
+![Bottom Case 3](IMAGES/BOTTOM3.png)
 
 ## Circuit Architecture and Wiring
 To maximize cost-effectivenes and accessibility, the entire physical circuit is manually assembled on a standard zero-PCB perfboard rather than relying on an expensive custom-printed circuit board. The power delivery system begins with a portable 3.7V LiPo battery wired directly to the input pads of a TP4056 Type-C charging module, which intelligently handles wall charging while supplying a regulated voltage output to the rest of the circuit. To give the user complete control over power consumption, a physical SPDT slide switch is wired in series on the positive voltage line bridging the TP4056 output and the ESP32-C3's 5V input pin, allowing the microcontroller and display to be completely shut down while the battery continues to safely charge in the background. The ESP32-C3 acts as the central processor, rapidly pulling decoded GIF frames from its flash memory and pushing the pixel data to the ILI9341 TFT screen over a high-speed SPI connection. 
 
-![Circuit Schematic](Images/SCHEMATICS.png)
+![Circuit Schematic](IMAGES/SCHEMATICS.png)
 
 ## Bill of Materials (BOM)
 | Component | Quantity | Estimated Price (USD) | Source Link |
